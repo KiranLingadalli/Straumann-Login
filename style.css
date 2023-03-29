@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+
+}
+
+.container {
+    display: flex;
+
+}
+
+.container-logo {
+    margin-top: 66px;
+    margin-left: 66px;
+    width: 100%;
+
+}
+
+.container-logo p {
+    margin-top: 32px;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 18px;
+
+    color: #000000;
+
+}
+
+.form-container {
+    background: rgba(235, 235, 235, 0.2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0 72px;
+    height: 768px;
+    width: 492px;
+    position: relative;
+}
+
+.form-inner-section {
+    position: absolute;
+    top: 18%;
+
+}
+
+.form-heading h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+
+    color: #000000;
+
+}
+
+.form-fields {
+    margin-top: 90px;
+
+}
+
+
+.password {
+    margin-top: 16px;
+}
+
+label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2D3142;
+
+}
+
+input[type="email"],
+input[type="password"] {
+    margin-top: 8px;
+    display: block;
+    width: 100%;
+    height: 42px;
+    background: #EBEBEB;
+    border-radius: 4px;
+    border-style: none;
+}
+
+input[type="submit"] {
+    /* width: 348px; */
+    width: 100%;
+    height: 52px;
+
+    background: #8FB91C;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    border-style: none;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+
+}
+
+.me {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+
+    margin-left: 10px;
+    color: #000000;
+}
+
+.links {
+    margin-top: 41px;
+    margin-left: 230px;
+    height: 18px;
+
+}
+
+.links a {
+    font-weight: 500;
+    font-size: 14px;
+    color: #8FB91C;
+}
+
+.sign-in {
+    margin-top: 16px;
+}
+
+input[value="Sign in"] {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width:700px) {
+    .container {
+
+        display: block;
+    }
+
+    .container-logo {
+        margin-top: 5%;
+        width: 70%;
+    }
+
+    .form-container {
+        margin-left: 0;
+        margin-top: 10%;
+        height: 100%;
+    }
+
+}
